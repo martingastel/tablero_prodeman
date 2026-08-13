@@ -202,7 +202,7 @@ elif menu == "⚙️ Pipeline ETL & Control de Calidad":
     
     etl_data = {
         "Flujo ETL": ["Ingesta_Balanzas_Acopio", "Transformacion_Humedad_Calidad", "Sync_SQLServer_PowerBI", "Exportaciones_ERP_MySQL", "Telemetria_Biomasa"],
-        "Origen": ["MySQL Balanzas", "CSV / IoT Sensores", "SQL Server DW", "ERP SAP/Oracle"],
+        "Origen": ["MySQL Balanzas", "CSV / IoT Sensores", "SQL Server DW", "ERP SAP/Oracle", "MQTT / InfluxDB"],
         "Destino": ["Data Mart Acopio", "Data Mart Calidad", "Dataset Power BI", "Data Mart Logística", "Data Mart Energía"],
         "Frecuencia": ["Cada 15 min", "Cada 1 hora", "Diario (06:00 hs)", "Cada 30 min", "Tiempo Real"],
         "Última Ejecución": ["Hace 5 min", "Hace 20 min", "Hoy 06:00 hs", "Hace 12 min", "Activo"],
